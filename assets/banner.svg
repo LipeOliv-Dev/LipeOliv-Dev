@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Phelipe Oliveira: do ERP ao código</title>
+  <desc id="desc">Banner do perfil de Phelipe Oliveira, estudante de Análise e Desenvolvimento de Sistemas</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1147"/>
+      <stop offset="0.55" stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#C4B5FD" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FACC15" stop-opacity="0.00"/>
+      <stop offset="1" stop-color="#FACC15" stop-opacity="0.12"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#DDD6FE" fill-opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect x="700" y="0" width="500" height="320" fill="url(#dots)"/>
+
+  <!-- ondas -->
+  <path d="M0 282 C 200 258, 380 306, 620 284 S 1000 262, 1200 280 L1200 320 L0 320 Z" fill="url(#wave1)"/>
+  <path d="M0 302 C 260 288, 460 316, 700 302 S 1040 292, 1200 304 L1200 320 L0 320 Z" fill="url(#wave2)"/>
+
+  <!-- símbolo de código -->
+  <text x="930" y="205" font-family="Consolas, 'Courier New', monospace" font-size="150" font-weight="700" fill="#FFFFFF" fill-opacity="0.16" text-anchor="middle">&lt;/&gt;</text>
+  <text x="1080" y="95" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700" fill="#FACC15" fill-opacity="0.75" text-anchor="middle">{ }</text>
+
+  <!-- textos -->
+  <text x="80" y="135" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#FFFFFF">Phelipe Oliveira</text>
+  <rect x="82" y="156" width="120" height="6" rx="3" fill="#FACC15"/>
+  <text x="80" y="212" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#EDE9FE">Do ERP ao <tspan fill="#FACC15">código</tspan></text>
+  <text x="80" y="256" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#C4B5FD">Estudante de ADS · Desenvolvimento Web · Rio de Janeiro<tspan dx="6" fill="#FACC15" font-weight="700">|<animate attributeName="fill-opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+</svg>
