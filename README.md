@@ -3,7 +3,7 @@
 **Estudante de Análise e Desenvolvimento de Sistemas (ADS)** na Unisuam, no Rio de Janeiro.
 Trabalho há mais de dois anos com ERP e rotinas administrativas e estou construindo minha base em desenvolvimento web aprendendo na prática, um projeto por vez.
 
-> 🇺🇸 ADS student in Rio de Janeiro, Brazil. 2+ years of hands-on experience with ERP and back-office processes, now building web development skills through real projects.
+> **English:** ADS student in Rio de Janeiro, Brazil. 2+ years of hands-on experience with ERP and back-office processes, now building web development skills through real projects.
 
 ---
 
